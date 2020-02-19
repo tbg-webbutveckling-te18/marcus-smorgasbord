@@ -1,0 +1,38 @@
+@charset 'utf-8';
+body{
+    background-color: grey;
+}   
+
+.grid-container {
+    width: 75%;
+    height: 100vh;
+    margin: auto;
+    box-shadow: 3px 0 10px black, -3px 0 10px black;
+    display:grid;
+    grid-template-areas: 
+        ". top ."
+        "left . right"
+        ". bottom .";
+        
+        
+    
+}
+
+
+.grid-item:nth-child(1){
+    background-color: aquamarine;
+    grid-area: top;
+}
+
+.grid-item:nth-child(2){
+    background-color: burlywood;
+    grid-area: left;
+}
+.grid-item:nth-child(3){
+    background-color: yellow;
+    grid-area: right;
+}
+.grid-item:nth-child(4){
+    background-color: green;
+    grid-area: bottom;
+}
