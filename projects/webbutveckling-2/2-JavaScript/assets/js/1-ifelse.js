@@ -41,7 +41,7 @@ if (d.getHours() <10) {
 
 // step 3
 if (d.getHours() <10) {
-    if(d.getMonth() > 9 || d.getMonth( <2)){
+    if(d.getMonth() > 9 || d.getMonth() <2){
         console.log("go ahead and sleep")
     } else{
         console.log("good morning");    
@@ -51,4 +51,63 @@ if (d.getHours() <10) {
     console.log("good day!");
 }else {
     console.log("good evening!");
+}
+
+
+var grade = "A";
+switch(grade) {
+    case "A":
+        console.log("Great job!");
+         break;
+    case "B":
+        console.log("Great job!");
+         break;
+    case "C":
+        console.log("Great job!");
+         break;
+    case "D":
+        console.log("Great job!");
+         break;
+    case "E":
+        console.log("Great job!");
+         break;
+    case "F":
+        console.log("Great job!");
+         break;
+
+    default:
+        console.log("Unknown grade!");
+
+
+
+
+    switch(d.getDay())   {
+        case 0:
+            console.log("Det är söndag");
+            break;
+        case 1:
+            console.log("Det är måndag");
+            break;
+        case 2:
+            console.log("Det är tisdag");
+            break;
+        case 3:
+            console.log("Det är onsdag");
+            break;
+        case 4:
+            console.log("Det är torsdag");
+            break;
+        case 5:
+            console.log("Det är fredag");
+            break;
+        case 6:
+            console.log("Det är lördag");
+            break;
+
+    }
+
+
+
+
+    
 }
