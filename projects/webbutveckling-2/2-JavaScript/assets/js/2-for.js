@@ -44,3 +44,35 @@ for(var i = -10; i < 20; i ++) {
 
 document.writeln("-----------------------------------<br>");
 
+
+for(var i= 10; i <41; i++){
+    if(i % 2 ===0){
+        document.writeln("Even numbers:" + i + "<br>");
+    }
+}
+
+document.writeln("-----------------------------------<br>");
+for(var i= 300; i < 334; i++){
+    if(i % 2 !==0){
+        document.writeln("odd numbers:" + i + "<br>");
+    }
+}
+
+
+document.writeln("-----------------------------------<br>");
+
+
+// Nested for loops
+// * * * * *
+// * * * * *
+// * * * * *
+// * * * * *
+// * * * * *
+
+
+for(var i = 0; i <5; i++) {
+    for(var j = 0; j < 5; j++){
+        document.writeln("*");
+    }
+    document.writeln("<br>");
+}
