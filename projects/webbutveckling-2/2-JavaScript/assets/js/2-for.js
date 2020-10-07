@@ -76,3 +76,34 @@ for(var i = 0; i <5; i++) {
     }
     document.writeln("<br>");
 }
+
+for (var i =0; i < 11; i++){
+    for (var j = 0; j < 11; j++) {
+        document.writeln(i * j)
+    }
+    document.writeln("<br>")
+    
+}
+
+var gamesArr = ["lol", "cs", "pac", "dota 2"];
+var len = gamesArr.length;
+for (var i =0; i<len; i++) {
+    var choice = i+1;
+    var suffix;
+
+    if(choice ===1){
+        suffix = "st";
+       
+    }
+    else if (choice ===2){
+        suffix = "nd";
+    }
+    else if (choice ===3){
+        suffix = "rd";
+    }else{
+        suffix = "th";
+    }
+    document.writeln("My" + choice + suffix + "choice is" + choices[i] + "<br>");
+    
+    
+}
