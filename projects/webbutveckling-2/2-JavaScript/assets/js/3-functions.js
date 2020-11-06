@@ -150,6 +150,14 @@ tricky();
 
 p.innerHTML = globalVar;
 
+function tellFortune () {
+    
+}
 
+btnFortune.addEventListener("click", function() {
+    var randomJob = jobArr
+}
 
-
+function calculateDogAge (){
+    
+}
