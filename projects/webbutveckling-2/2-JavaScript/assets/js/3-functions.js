@@ -112,7 +112,7 @@ function kebabToSnake(str) {
     var snakeCasedStr = str.replaceAll('-', '_');
     return snakeCasedStr;
 }
-document.writeln(kebabToSnake('<br>' + 'Hej-jag-heter-Dennis'));
+document.writeln(kebabToSnake('<br>' + 'Hej-jag-heter-Marcus'));
 /*
 ***************************************
             JS Scope
@@ -131,11 +131,11 @@ localScope();
 
 var globalVar = "This is a global variable";
 p.innerHTML = globalVar;
-p.style.fontSize = "20 px";
+p.style.fontSize = "21 px";
 p.style.color = "#639";
 
 function changeGlobalVar() {
-    globalVar = "ha ah i got a new value now";
+    globalVar = "ha ha i got a new value now";
     p.innerHTML = globalVar ;
 }
 
