@@ -144,7 +144,7 @@ changeGlobalVar();
 
 
 function tricky(){
-    var globalVar = "Am i a local variable";
+    var globalVar = "Am i a local variable yes";
 }
 tricky();
 

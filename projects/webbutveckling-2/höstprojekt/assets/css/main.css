@@ -1,0 +1,99 @@
+body{
+    /* background: rgb(137,232,200);
+    background: radial-gradient(circle, rgba(137,232,200,1) 42%, rgba(123,237,159,1) 100%); */
+    background: rgb(228,189,238);
+    background: linear-gradient(90deg, rgba(228,189,238,1) 22%, rgba(65,219,188,1) 99%);
+    font-family: 'Noto Sans JP', sans-serif;
+}
+h1.header{
+    text-align: center;
+    margin: 0px;
+    padding: 8px;
+    font-size: 185%;
+    background: -webkit-linear-gradient(90deg, #9c2fb8 25%,#177c67 50%);
+   
+}
+section.text h1 {
+    text-align: center;
+    margin: 0px;
+    font-size: 135%;
+}
+h3 {
+    text-align: center;
+    font-size: 110%;
+}
+ul.nav{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 90%;
+}
+
+ul.nav li{
+    width: 150px;
+    border: 1.5px solid rgb(3, 0, 0);
+    border-radius: 8px;
+    text-align: center;
+    font-size: 105%;
+    
+    
+}
+section.text{
+    width: 60%;
+    height: 400px;
+    border: 1px dotted #c564de;
+    border-radius: 8px;
+    margin: auto;
+    margin-top: 60px;
+}
+
+/* section.ifelse, section.for {
+    transition: opacity .4s ease;
+} */
+
+section.ifelse {
+    display: block;
+    background-color: #8ee7d5;
+    height: 100%;
+    border-radius: 12px;
+}
+section.for {
+    display: none;
+    background-color: #8ee7d5;
+    height: 100%;
+    border-radius: 12px;
+}
+
+section.array {
+    display: none;
+    background-color: #8ee7d5;
+    height: 100%;
+    border-radius: 12px;
+}
+
+section.object {
+    display: none;
+    background-color:#8ee7d5;
+    height: 100%;
+    border-radius: 12px;
+}
+
+p {
+    text-align: center;
+}
+p.ifElseCodeEx {
+    color: #041310;
+    font-size: 72%;
+}
+
+p.forCodeEx {
+    color: #041310;
+}
+
+.codeexample {
+    width: 15%;
+    margin: auto;
+}
+.codebg {
+    background-color: #cff5ed59;
+}
