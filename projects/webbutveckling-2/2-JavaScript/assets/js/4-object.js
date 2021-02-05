@@ -36,7 +36,7 @@ console.log(user.age)
 var posts = [
     {
         author: "Dennis",
-        comment: "hey catz rules!"
+        comment: "hey catz rules!!"
     },
     {
          author: "Arnorld",
