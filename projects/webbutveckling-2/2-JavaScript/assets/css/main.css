@@ -64,7 +64,7 @@ body {
 .changeText {
     color: #000;
     font-weight: bold;
-    text-shadow: 3px 3px 3px #000;
+    text-shadow: 4px 3px 3px #000;
     font-size: 32px;
     letter-spacing: 4px;
 }
