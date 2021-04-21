@@ -2,7 +2,7 @@ body{
     /* background: rgb(137,232,200);
     background: radial-gradient(circle, rgba(137,232,200,1) 42%, rgba(123,237,159,1) 100%); */
     background: rgb(228,189,238);
-    background: linear-gradient(90deg, rgba(228,189,238,1) 22%, rgba(65,219,188,1) 99%);
+    background: linear-gradient(90deg, rgba(228,189,238,1) 22%, rgb(65, 219, 111) 99%);
     font-family: 'Noto Sans JP', sans-serif;
 }
 h1.header{
@@ -10,7 +10,7 @@ h1.header{
     margin: 0px;
     padding: 8px;
     font-size: 185%;
-    background: -webkit-linear-gradient(90deg, #9c2fb8 25%,#177c67 50%);
+    background: -webkit-linear-gradient(90deg, #9c2fb8 25%,#32177c 50%);
    
 }
 section.text h1 {
