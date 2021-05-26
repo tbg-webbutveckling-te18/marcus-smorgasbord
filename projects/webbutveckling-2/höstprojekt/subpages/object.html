@@ -22,19 +22,10 @@
 </header>
 <section class="text">
     
-<section class="Selektion">
-    <h1>Selektion</h1>
-    <p>Inom JavaScript och andra programmerings spårk finns det <b>Selektioner</b>, 
 
-
-<section class="Array">
-        <h1>Array</h1>
-            <p>
-            En Array
-            </p>
         
          
-</section>
+
 
 <section class="Object">
     <h1>Object</h1>
@@ -50,13 +41,25 @@
 
 </section>
 
-<section class="Loopar">
-    <h1>Loopar</h1>
-    <p>
-        En loop är adsadasdadasdasdasd
-    </p>
 
-</section>
+
+<h2>JavaScript Objects</h2>
+
+<p id="demo"></p>
+
+<script>
+   
+    var person = {
+      firstName: "Marcus",
+      lastName: "Filipsson",
+      age: 18,
+      eyeColor: "blue"
+    };
+    
+    
+    document.getElementById("demo").innerHTML =
+    person.firstName + "  " + person.lastName + " is " + person.age + " years old " + " and have " + person.eyeColor + " eye color. ";
+    </script>
 
 
 
