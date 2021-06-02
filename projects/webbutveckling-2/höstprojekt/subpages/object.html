@@ -30,7 +30,7 @@
 <section class="Object">
     <h1>Object</h1>
     <p>
-        Om vi ska spara information om en person som t.ex. hens namn och ålder. Då kommer man behöva göra två
+        Om vi ska spara information om en person som t.ex. hens namn, ålder och ögonfärg. Då kommer man behöva göra två
         variabler. plus om vi ska göra det för en klass så kommer man också behöva 2 arrayer.
         Men om det bara fanns ett sätt att göra allt på ett ställe, objekt. Det är som en stor låda
         som har minder lådor  i sig. Dom små lådorna i vårat fall är namn och ålder. Vi kan typ se 
@@ -45,6 +45,21 @@
 
 <h2>JavaScript Objects</h2>
 
+
+<p>Här visas hur man kan använda objekt. Mitt namn marcus är sparat i en variabel.
+    Som jag anropar för att få fram mitt namn. Samma sak för mitt efternamn, ålder och ögonfärg.
+</p>
+<p>
+    Så hära ser koden ut: 
+    var person = {
+        firstName: "Marcus",
+        lastName: "Filipsson",
+        age: 18,
+        eyeColor: "blue"
+      };
+      document.getElementById("demo").innerHTML =
+      person.firstName + "  " + person.lastName + " is " + person.age + " År " + " och har " + person.eyeColor + " ögonfärg. ";
+</p>
 <p id="demo"></p>
 
 <script>
@@ -58,7 +73,7 @@
     
     
     document.getElementById("demo").innerHTML =
-    person.firstName + "  " + person.lastName + " is " + person.age + " years old " + " and have " + person.eyeColor + " eye color. ";
+    person.firstName + "  " + person.lastName + " is " + person.age + " År " + " och har " + person.eyeColor + " ögonfärg. ";
     </script>
 
 
